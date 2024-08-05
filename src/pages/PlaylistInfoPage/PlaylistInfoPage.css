@@ -1,0 +1,14 @@
+.playlists {
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.playlists__list > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.playlists__list:before > ul {
+    content: "-";
+    position: relative;
+    left: -5px;
+}

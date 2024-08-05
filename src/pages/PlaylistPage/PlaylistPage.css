@@ -1,0 +1,31 @@
+.playlist{
+    display: flex;
+}
+.usersPage {
+	color: bisque;
+}
+
+.playlist {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.playlist a {
+	color: cornflowerblue;
+	cursor: pointer;
+}
+
+.playlist a:hover {
+	color: rgb(72, 111, 184);
+}
+
+.playlist button {
+	text-align: left;
+	color: cornflowerblue;
+}
+
+.playlist button:hover {
+	text-align: left;
+	color: rgb(72, 111, 184);
+}
